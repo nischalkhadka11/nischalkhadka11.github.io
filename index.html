@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connecting Dots</title>
+    <link rel="stylesheet" href="layout.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+<h1 class="bg-info text-dark" align="center">HELLO AND WELCOME TO CONNECTING DOTS</h1>
+<h2 class="bg-light text-secondary"align="center">The objective of the game is to connect 4 dots.</h2>
+
+<table id="board" align="center">
+     <tr>
+        <td><button type="button" class="btn btn-outline-dark btn-lg" hidden></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg" hidden></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg" hidden></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg" hidden></button></td>
+           <td><button type="button" class="btn btn-outline-dark btn-lg" hidden></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg" hidden></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg" hidden></button></td>
+    </tr>
+    <tr>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+           <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+    </tr>
+    <tr>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+           <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+    </tr>
+    <tr>
+    <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+           <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+    </tr>
+    <tr>
+    <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+           <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+    </tr>
+    <tr>
+    <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+           <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+    </tr>
+    <tr>
+    <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+           <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+        <td><button type="button" class="btn btn-outline-dark btn-lg"></button></td>
+    </tr>
+
+
+</table>
+    <div align="center">
+        <a class="btn btn-primary btn-lg" href="#" role="button" id="newGame" hidden="true">New Game</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button" id="playAgain" hidden="true">Play Again</a></div>
+</div>
+<script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous">
+    </script>
+</body>
+   <script src='connector.js'></script>
+</html>
